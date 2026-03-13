@@ -22,6 +22,14 @@
         <module>ural-test-starter</module>
     </modules>
 
+    <distributionManagement>
+      <repository>
+        <id>github</id>
+        <name>ural-common-starter</name>
+        <url>https://maven.pkg.github.com/Tehno-R/ural-common-starter-v2-CI-test</url>
+      </repository>
+    </distributionManagement>
+         
     <properties>
         <java.version>21</java.version>
         <spring-boot.version>3.4.3</spring-boot.version>
