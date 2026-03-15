@@ -21,6 +21,6 @@ jobs:
         java-version: '21'
         distribution: 'oracle'
     - name: Build with Maven and push artifact
-      run: mvn --batch-mode clean deploy
+      run: mvn --batch-mode deploy
       env:
-        GITHUB_TOKEN: ${{ secrets.REGISTRY_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
