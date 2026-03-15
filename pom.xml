@@ -13,7 +13,7 @@
 
     <groupId>ural</groupId>
     <artifactId>ural-common-starter</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.8-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>ural-db-starter</module>
@@ -38,7 +38,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <lombok.mapstruct.binding.version>0.2.0</lombok.mapstruct.binding.version>
-        <springdoc.version>2.6.0</springdoc.version>
+        <springdoc.version>2.8.0</springdoc.version>
     </properties>
 
     <dependencyManagement>
